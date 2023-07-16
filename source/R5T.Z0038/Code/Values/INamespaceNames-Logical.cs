@@ -21,7 +21,7 @@ namespace R5T.Z0038
         public const string NoNamespaces_Constant = null;
 
 
-        public NamespaceName AllNamespaces => INamespaceNames.AllNamespaces_Constant.ToNamespaceName();
-        public NamespaceName NoNamespaces => INamespaceNames.NoNamespaces_Constant.ToNamespaceName();
+        public INamespaceName AllNamespaces => INamespaceNames.AllNamespaces_Constant.ToNamespaceName();
+        public INamespaceName NoNamespaces => INamespaceNames.NoNamespaces_Constant.ToNamespaceName();
     }
 }

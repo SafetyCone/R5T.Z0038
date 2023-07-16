@@ -8,11 +8,11 @@ namespace R5T.Z0038
 {
     public partial interface INamespaceNames
     {
-        public NamespaceName Microsoft => "Microsoft".ToNamespaceName();
-        public NamespaceName Microsoft_Extensions => "Microsoft.Extensions".ToNamespaceName();
-        public NamespaceName Microsoft_Extensions_Configuration => "Microsoft.Extensions.Configuration".ToNamespaceName();
-        public NamespaceName Microsoft_Extensions_DependencyInjection => "Microsoft.Extensions.DependencyInjection".ToNamespaceName();
-        public NamespaceName Microsoft_Extensions_Hosting => "Microsoft.Extensions.Hosting".ToNamespaceName();
-        public NamespaceName Microsoft_Extensions_Logging => "Microsoft.Extensions.Logging".ToNamespaceName();
+        public INamespaceName Microsoft => "Microsoft".ToNamespaceName();
+        public INamespaceName Microsoft_Extensions => "Microsoft.Extensions".ToNamespaceName();
+        public INamespaceName Microsoft_Extensions_Configuration => "Microsoft.Extensions.Configuration".ToNamespaceName();
+        public INamespaceName Microsoft_Extensions_DependencyInjection => "Microsoft.Extensions.DependencyInjection".ToNamespaceName();
+        public INamespaceName Microsoft_Extensions_Hosting => "Microsoft.Extensions.Hosting".ToNamespaceName();
+        public INamespaceName Microsoft_Extensions_Logging => "Microsoft.Extensions.Logging".ToNamespaceName();
     }
 }
